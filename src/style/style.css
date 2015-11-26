@@ -1,0 +1,270 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/yrzXiAvgeQQdopyG8QSg8Q.woff") format("woff");
+}
+
+@font-face{
+  font-family: "PT Sans I";
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/7dSh6BcuqDLzS2qAASIeuj8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Plumb-Bold";
+  src: url("../fonts/plumb-bold.eot");
+  src: url("../fonts/plumb-bold.eot") format("embedded-opentype"),
+       url("../fonts/plumb-bold.woff") format("woff"),
+       url("../fonts/plumb-bold.ttf") format("truetype"),
+         url("../fonts/plumb-bold.svg#Plumb-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	background-color: #e9f2f7;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  font-family: "PT Sans";
+  font-size: 16px;
+}
+
+/* ###################### */
+
+.head{
+	height: 100px;
+}
+
+.head-logo{
+  margin: 11px 74px 0 -10px;
+  float: left;  
+}
+
+.head-menu{
+	 padding-top: 42px;
+}
+
+.head-menu__element{
+  float: left;
+  list-style: none;
+  margin-right: 22px;
+  font-family: "PT Sans I";
+  font-size: 15.78px;
+}
+
+.element_item{
+  color:#50727e;
+}
+
+.element_item:visited{
+  color: #b22c2b;
+}
+
+.element_delimiter{
+  color: #fcfdfe;
+  font-weight: bold;
+}
+
+/* ###################### */
+
+h1{
+  font-size: 40px;
+  padding: 30px 0 32px 3px;
+  font-weight: normal;
+  color: #81b5cb;
+}
+
+h2{
+  font-size: 30px;
+  padding: 83px 0 33px 0px;
+  font-weight: normal;
+  color: #81b5cb;
+  clear: both;
+}
+
+.info{
+  padding: 0 25px 0 31px;
+  width: 444px;
+  float: left;
+  line-height: 21px;
+}
+
+.info_sarkoma{
+	color: #bf4140;
+}
+
+.info-italic{
+  font-family: "PT Sans I";
+  font-size: 15px;
+}
+
+.info-indent{
+	margin-bottom: 21px;
+}
+
+/* график */
+
+.info-stat{
+  height: 290px;
+  margin: 57px 0px 0px -10px;
+}
+
+.info-stat__graph{
+	position: relative;
+}
+
+.info-stat__graph>div{
+	position: absolute;
+}
+
+.plumb{
+  font-family: "Plumb-Bold";
+  color: #7ab9c8;
+}
+
+.info-stat__people{
+  text-align: right;
+  margin: 0 -47.5px 15px 0;
+}
+
+.graph_people{
+  top: 47px;
+  left: -16px;
+}
+
+.graph_growth{
+  top: 62px;
+  left: 260px;
+  font-size: 18.79px;
+}
+
+.growth_percent{
+	font-size: 35.48px;
+}
+
+.people_digit{
+	font-size: 31.47px;
+}
+
+.people_patient{
+	font-size: 10.49px;
+}
+
+.info-stat_year1,.info-stat_year2{
+  font-family: "Plumb-Bold";
+  font-size: 14px;  
+}
+
+.info-stat_year1{
+  float: left;
+  margin: 8px 0 0 -12px;
+}
+
+.info-stat_year2{
+  float: right; 
+  margin: 8px -38px 0 0;
+}
+
+/* ###################### */
+
+.info-metas{
+	margin: 80px 0 64px 0;
+}
+
+.info-metas_percent{
+  font-size: 120px;
+  padding: 10px 0 0 100px;
+}
+
+.info-metas_percent>span{
+	font-size: 100px;
+	padding-left: 5px;
+}
+
+.info-metas__result{
+  width: 200px;
+  height: 185px;
+  padding: 52px 0 0 137px;
+}
+
+.result_1{
+  font-size: 15px;
+  margin: 18px 0 10px 0;
+  line-height: 17px;
+}
+
+.result_2{
+  height: 1px;
+  border-bottom: 2px dotted #7ab9c8;
+}
+
+.result_3{
+  font-size: 13.03px;
+  margin-top: 13px;
+  line-height: 20.04px;
+}
+
+.info_text{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+/* ###################### */
+
+.foot{
+  clear: both;
+  padding: 63px 25px 0px 30px;
+}
+
+.foot-line1{
+  height: 1px;
+  width: 750px;
+  border-bottom: 2px solid #ffffff;
+  float: left;  
+}
+
+.foot-line2{
+  height: 1px;
+  width: 195px;
+  float: right;
+  border-bottom: 2px solid #d4999b;
+}
+
+.foot-line1,.foot-line2{
+	margin-bottom: 16px;
+}
+
+.foot-info{
+  width: 200px;
+  height: 110px;
+  margin-right: 50px;
+  font-size: 12px;
+  line-height: 16px;
+  float: left;
+}
+
+
+
+.foot-info_text{
+	margin-bottom: 11px;
+}
+
+.foot-info_item{
+  display: block;
+  color: #1782a9;
+  margin-top: -5.5px;
+}
+
+.copyright{
+	font-size: 12.5px;
+}
